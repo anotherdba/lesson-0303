@@ -23,8 +23,8 @@ jobs:
         ref: main               # The branch, tag or SHA to checkout
         path: ./tomcat            # Relative path under $GITHUB_WORKSPACE
 
-    - name: ' list  $GITHUB_WORKSPACE'
-      run: echo $GITHUB_WORKSPACE
+    # - name: ' list  $GITHUB_WORKSPACE'
+    #   run: echo $GITHUB_WORKSPACE
       
 
     - name: Setup Java 17
